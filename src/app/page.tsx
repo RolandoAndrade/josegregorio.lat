@@ -1,8 +1,11 @@
 import Image from 'next/image'
+import { Button } from 'flowbite-react';
+import { Hero } from '@/components/hero/hero';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex-auto">
+      <Hero></Hero>
     </main>
   )
 }

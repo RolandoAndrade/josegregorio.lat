@@ -6,7 +6,7 @@ export function Navbar() {
     <FBNavbar
       fluid
       rounded
-      className={'bg-transparent p-3 sticky top-0 z-50'}
+      className={'bg-gray-50 p-3 sticky top-0 z-50'}
 
     >
       <FBNavbar.Brand href="https://josegregorio.lat">
