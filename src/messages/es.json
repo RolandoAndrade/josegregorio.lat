@@ -8,5 +8,13 @@
   "Hero": {
     "title": "Tu asistente en temas de salud",
     "subtitle": "Este asistente médico impulsado por IA fue creado para brindar la asistencia necesaria a los venezolanos que luchan por acceder a la atención médica durante estos momentos de crisis."
+  },
+  "About": {
+    "what_title": "¿Qué es AI José Gregorio?",
+    "how_title": "¿Cómo funciona?",
+    "why_title": "Un recurso vital en momentos de crisis",
+    "what_content": "José Gregorio es un asistente médico impulsado por IA diseñado para ayudar a los venezolanos a acceder a la asistencia médica de manera rápida y eficiente. Nombrado en honor al querido médico venezolano José Gregorio Hernández, quien es venerado por su dedicación a los enfermos y necesitados, esta IA encarna el mismo espíritu de servicio.",
+    "how_content": "En una vista de chat interactiva, puede ingresar sus síntomas, antecedentes médicos o inquietudes de salud. La IA procesa su entrada y le brinda una respuesta detallada y comprensible. Esto podría incluir posibles diagnósticos, los próximos pasos recomendados o consejos sobre cuándo buscar atención médica inmediata.",
+    "why_content": "Venezuela está experimentando actualmente una crisis humanitaria, y el sistema de salud está en un estado de colapso. Los hospitales tienen personal y fondos insuficientes, y muchos venezolanos no pueden acceder a la atención médica que necesitan. Esta IA está diseñada para brindar la asistencia necesaria a los venezolanos que luchan por acceder a la atención médica durante estos momentos de crisis."
   }
 }

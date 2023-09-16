@@ -30,13 +30,13 @@ export function Navbar() {
       </div>
       <FBNavbar.Collapse>
         <FBNavbar.Link color={'dark'}
-          href="#"
+          href="#about"
         >
           <p className={'hover:text-black font-semibold'}>
             {titleTranslations('about')}
           </p>
         </FBNavbar.Link>
-        <FBNavbar.Link href="#">
+        <FBNavbar.Link href="#features">
           <p className={'hover:text-black font-semibold'}>
             {titleTranslations('features')}
           </p>
