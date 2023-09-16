@@ -16,5 +16,13 @@
     "what_content": "José Gregorio is an AI-powered medical assistant designed to help Venezuelans access medical assistance promptly and efficiently. Named in honor of the beloved Venezuelan doctor José Gregorio Hernández, who is revered for his dedication to the sick and needy, this AI embodies the same spirit of service.",
     "how_content": "In an interactive chat view, you can input your symptoms, medical history, or health concerns. The AI then processes your input and provides you with a detailed, understandable response. This might include potential diagnoses, recommended next steps, or advice on when to seek immediate medical attention.",
     "why_content": "Venezuela is currently experiencing a humanitarian crisis, and the healthcare system is in a state of collapse. Hospitals are understaffed and underfunded, and many Venezuelans are unable to access the medical care they need. This AI is designed to provide much-needed assistance to Venezuelans who are struggling to access medical care during this turbulent time."
+  },
+  "Features": {
+    "f1_title": "Available",
+    "f1_content": "Unlike other AI assistants on the market, AI José Gregorio is available in Venezuela.",
+    "f2_title": "Fast",
+    "f2_content": "AI José Gregorio provides you with a response in a matter of seconds.",
+    "f3_title": "Easy to Use",
+    "f3_content": "It is almost as easy as chatting with a friend."
   }
 }
