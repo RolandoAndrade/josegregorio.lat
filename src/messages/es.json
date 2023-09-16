@@ -1,0 +1,12 @@
+{
+  "Titles": {
+    "about": "Sobre el proyecto",
+    "features": "Características",
+    "tryOnWeb": "Probar ahora",
+    "download": "Descargar"
+  },
+  "Hero": {
+    "title": "Tu asistente en temas de salud",
+    "subtitle": "Este asistente médico impulsado por IA fue creado para brindar la asistencia necesaria a los venezolanos que luchan por acceder a la atención médica durante estos momentos de crisis."
+  }
+}

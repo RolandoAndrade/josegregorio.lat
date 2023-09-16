@@ -1,7 +1,9 @@
 "use client";
 import { Button, Navbar as FBNavbar } from 'flowbite-react';
+import { useTranslations } from 'next-intl';
 
 export function Navbar() {
+  const titleTranslations = useTranslations('Titles')
   return (
     <FBNavbar
       fluid
@@ -19,10 +21,10 @@ export function Navbar() {
       </FBNavbar.Brand>
       <div className="flex md:order-2 gap-2">
         <Button outline={true} color={'dark'} size={'sm'} className={'font-semibold'}>
-          Try on Web
+          {titleTranslations('tryOnWeb')}
         </Button>
         <Button color={`dark`} size={'sm'} className={'font-semibold'}>
-          Download
+          {titleTranslations('download')}
         </Button>
         <FBNavbar.Toggle />
       </div>
@@ -31,12 +33,12 @@ export function Navbar() {
           href="#"
         >
           <p className={'hover:text-black font-semibold'}>
-            About
+            {titleTranslations('about')}
           </p>
         </FBNavbar.Link>
         <FBNavbar.Link href="#">
           <p className={'hover:text-black font-semibold'}>
-            Features
+            {titleTranslations('features')}
           </p>
         </FBNavbar.Link>
         <FBNavbar.Link href="#" color={'dark'}>

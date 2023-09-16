@@ -1,0 +1,12 @@
+{
+  "Titles": {
+    "about": "About",
+    "features": "Features",
+    "tryOnWeb": "Try on Web",
+    "download": "Download"
+  },
+  "Hero": {
+    "title": "Your health assistant",
+    "subtitle": "This AI-powered medical assistant was created to provide much-needed assistance to Venezuelans who are struggling to access medical care during this turbulent time."
+  }
+}
