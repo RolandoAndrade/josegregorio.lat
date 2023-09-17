@@ -3,7 +3,8 @@
     "about": "Sobre el proyecto",
     "features": "Características",
     "tryOnWeb": "Probar ahora",
-    "download": "Descargar"
+    "download": "Descargar",
+    "faqs": "Preguntas frecuentes"
   },
   "Hero": {
     "title": "Tu asistente en temas de salud",
@@ -24,5 +25,21 @@
     "f2_content": "AI José Gregorio le brinda una respuesta en cuestión de segundos.",
     "f3_title": "Fácil de usar",
     "f3_content": "Es casi tan fácil como chatear con un amigo."
+  },
+  "FAQs": {
+    "faqs_title": "Preguntas frecuentes",
+    "faqs_subtitle": "Seguramente tendrá algunas preguntas sobre AI José Gregorio. Aquí hay algunas respuestas.",
+    "q1": "¿AI José Gregorio remplaza la atención médica?",
+    "a1": "No. AI José Gregorio no es un sustituto de la atención médica. AI José Gregorio es una herramienta que puede ayudarlo a tomar decisiones informadas sobre su salud. Siempre debe consultar a un médico calificado para obtener un diagnóstico y tratamiento específico a su persona.",
+    "q2": "¿AI José Gregorio guarda mi información?",
+    "a2": "No. Por el momento, AI José Gregorio no guarda ninguna información personal. Toda la información que ingrese en AI José Gregorio se procesa en tiempo real y se descarta una vez que se le brinda una respuesta.",
+    "q3": "¿AI José Gregorio está disponible en otros idiomas?",
+    "a3": "No. AI José Gregorio solo está disponible en español por el momento.",
+    "q4": "¿La información proporcionada por AI José Gregorio es confiable?",
+    "a4": "AI José Gregorio está diseñado para brindarle información precisa y confiable. Sin embargo, no podemos garantizar que la información proporcionada por AI José Gregorio sea 100% precisa debido que es generada aleatoriamente a partir de patrones de datos lo que puede generar respuestas inexactas o alucinaciones.",
+    "q5": "¿Cómo puedo ayudar a AI José Gregorio a mejorar?",
+    "a5": "Por el momento, brindando comentarios sobre la aplicación y compartiendo AI José Gregorio con sus amigos y familiares para hacer el proyecto más reconocido y obtener algún tipo de financiación",
+    "q6": "¿Cómo puedo contactar al equipo de AI José Gregorio?",
+    "a6": "Puede contactarnos a través de nuestro correo electrónico:"
   }
 }

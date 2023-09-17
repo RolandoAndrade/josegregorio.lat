@@ -30,7 +30,7 @@ export default function RootLayout({
 
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={'scroll-smooth'}>
       <body className={inter.className}>
         <AsyncLayout locale={locale}>
           {children}

@@ -10,9 +10,9 @@ export function Features() {
   const aboutTranslations = useTranslations('About');
   const featuresTranslations = useTranslations('Features');
   return (
-    <section id={'features'} className={'overflow-hidden sm:py-16'}>
+    <section id={'features'} className={'overflow-hidden sm:py-32'}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className={`flex flex-col px-6 mt-20`}>
+        <div className={`flex flex-col px-6`}>
           <h1 className="text-3xl tracking-tight">{aboutTranslations('why_title')}</h1>
           <p className="mt-6 text-lg text-gray-600">{aboutTranslations('why_content')}</p>
         </div>

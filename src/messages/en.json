@@ -3,7 +3,8 @@
     "about": "About",
     "features": "Features",
     "tryOnWeb": "Try on Web",
-    "download": "Download"
+    "download": "Download",
+    "faqs": "FAQs"
   },
   "Hero": {
     "title": "Your health assistant",
@@ -24,5 +25,21 @@
     "f2_content": "AI José Gregorio provides you with a response in a matter of seconds.",
     "f3_title": "Easy to Use",
     "f3_content": "It is almost as easy as chatting with a friend."
+  },
+  "FAQs": {
+    "faqs_title": "Frequently Asked Questions",
+    "faqs_subtitle": "You probably have some questions about AI José Gregorio. Here are some answers.",
+    "q1": "Is AI José Gregorio a substitute for medical attention?",
+    "a1": "No. AI José Gregorio is not a substitute for medical attention. AI José Gregorio is a tool that can help you make informed decisions about your health. You should always consult a qualified doctor for a diagnosis and treatment specific to your person.",
+    "q2": "Does AI José Gregorio save my information?",
+    "a2": "No. At the moment, AI José Gregorio does not save any personal information. All the information you enter in AI José Gregorio is processed in real time and is discarded once you are given an answer.",
+    "q3": "Is AI José Gregorio available in other languages?",
+    "a3": "No. AI José Gregorio is only available in Spanish at the moment.",
+    "q4": "Is the information provided by AI José Gregorio reliable?",
+    "a4": "AI José Gregorio is designed to provide you with accurate and reliable information. However, we cannot guarantee that the information provided by AI José Gregorio is 100% accurate because it is randomly generated from data patterns which can generate inaccurate responses or hallucinations.",
+    "q5": "How can I help AI José Gregorio improve?",
+    "a5": "At the moment, by providing feedback on the application and sharing AI José Gregorio with your friends and family to make the project more recognized and obtain some kind of financing",
+    "q6": "How can I contact the AI José Gregorio team?",
+    "a6": "You can contact us through the email:"
   }
 }
