@@ -30,6 +30,7 @@ export function Navbar() {
           alt="AI José Gregorio Logo"
           className="mr-3 h-9"
           src="/logo.png"
+          loading={'eager'}
         />
         <span className="ml-2 font-semibold text-lg tracking-tight text-gray-800 hidden lg:inline-flex">AI José Gregorio</span>
       </FBNavbar.Brand>
