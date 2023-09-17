@@ -7,15 +7,15 @@ import { TfiWorld } from 'react-icons/tfi';
 export function TryButtons() {
   const titleTranslations = useTranslations('Titles')
   return (
-    <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
-      <Button outline={true} color={'dark'} size={'lg'} className={'font-semibold'}>
+    <div className="flex flex-wrap gap-x-6 gap-y-4">
+      <Button href={'https://app.josegregorio.lat'} outline={true} color={'dark'} size={'lg'} className={'font-semibold'}>
         <div className={'flex place-items-center'}>
           <TfiWorld className={'mr-3'}/>
           {titleTranslations('tryOnWeb')}
         </div>
 
       </Button>
-      <Button color={'dark'} size={'lg'} className={'font-semibold'}>
+      <Button href={'https://play.google.com/store/apps/details?id=com.rolandoandrade.djghapp'} color={'dark'} size={'lg'} className={'font-semibold'}>
         <div className={'flex place-items-center'}>
           <FaGooglePlay className={'mr-3'}/>
           {titleTranslations('download')}

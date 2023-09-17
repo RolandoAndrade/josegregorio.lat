@@ -13,17 +13,17 @@ export function Navbar() {
     >
       <FBNavbar.Brand href="https://josegregorio.lat">
         <img
-          alt="Flowbite React Logo"
+          alt="AI José Gregorio Logo"
           className="mr-3 h-9"
           src="/logo.png"
         />
         <span className="ml-2 font-semibold text-lg tracking-tight text-gray-800 hidden lg:inline-flex">AI José Gregorio</span>
       </FBNavbar.Brand>
       <div className="flex md:order-2 gap-2">
-        <Button outline={true} color={'dark'} size={'sm'} className={'font-semibold'}>
+        <Button outline={true} color={'dark'} size={'sm'} className={'font-semibold'} href={'https://app.josegregorio.lat'}>
           {titleTranslations('tryOnWeb')}
         </Button>
-        <Button color={`dark`} size={'sm'} className={'font-semibold'}>
+        <Button color={`dark`} size={'sm'} className={'font-semibold'} href={'https://play.google.com/store/apps/details?id=com.rolandoandrade.djghapp'}>
           {titleTranslations('download')}
         </Button>
         <FBNavbar.Toggle />

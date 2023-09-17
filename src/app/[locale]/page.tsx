@@ -2,6 +2,7 @@ import { Hero } from '@/components/hero/hero';
 import { About } from '@/components/about/about';
 import { Features } from '@/components/features/features';
 import { Faqs } from '@/components/faqs/faqs';
+import { Footer } from '@/components/footer/footer';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <About></About>
         <Features></Features>
         <Faqs></Faqs>
+        <Footer></Footer>
       </main>
     </>
   )
