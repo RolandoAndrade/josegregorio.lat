@@ -5,6 +5,7 @@ import { FeatureCard } from '@/components/features/feature-card';
 import React from 'react';
 import { GiQuickSlash } from 'react-icons/gi';
 import { IoMdHand } from 'react-icons/io';
+import Image from 'next/image';
 
 export function Features() {
   const aboutTranslations = useTranslations('About');
@@ -20,7 +21,7 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-10">
         <div className="md:grid md:grid-cols-12 md:gap-x-8 md:gap-y-20 place-items-center">
           <div className='md:col-span-5 lg:mt-0 xl:col-span-6 flex justify-center'>
-            <img src={'./main.svg'} className={'w-3/4'}/>
+            <Image width={250} height={250} alt={'App screenshot'} src={'./features.svg'} className={'w-3/4'}/>
           </div>
           <div className="z-10 mx-auto max-w-2xl md:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <FeatureCard title={featuresTranslations('f1_title')} content={featuresTranslations('f1_content')} icon={

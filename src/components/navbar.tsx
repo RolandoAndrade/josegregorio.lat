@@ -1,6 +1,7 @@
 "use client";
 import { Button, Navbar as FBNavbar } from 'flowbite-react';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export function Navbar() {
   const titleTranslations = useTranslations('Titles')
@@ -12,7 +13,9 @@ export function Navbar() {
 
     >
       <FBNavbar.Brand href="https://josegregorio.lat">
-        <img
+        <Image
+          width={36}
+          height={36}
           alt="AI José Gregorio Logo"
           className="mr-3 h-9"
           src="/logo.png"
