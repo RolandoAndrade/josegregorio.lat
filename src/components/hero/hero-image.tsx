@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export function HeroImage() {
   return (
     <div
@@ -5,7 +7,7 @@ export function HeroImage() {
       <div className="relative aspect-[366/729] mx-auto max-w-[366px]">
         <div
           className="absolute inset-y-[calc(1/729*100%)] left-[calc(7/729*100%)] right-[calc(5/729*100%)] rounded-[calc(58/366*100%)/calc(58/729*100%)] shadow-2xl"></div>
-        <img src={'/main.svg'} alt={'img'} className={'absolute inset-0 w-full h-full object-cover'} />
+        <Image width={50} height={50} src={'/main.svg'} alt={'img'} className={'absolute inset-0 w-full h-full object-cover'} />
       </div>
     </div>)
 }

@@ -24,6 +24,6 @@ export function Hero() {
 
 const styles = {
   hero: {
-    height: 'calc(100vh - 3rem)',
+    minHeight: 'calc(100vh - 3rem)',
   }
 }
