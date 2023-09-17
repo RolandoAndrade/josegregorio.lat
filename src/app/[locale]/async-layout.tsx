@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { Navbar } from '@/components/navbar';
+import { Navbar } from '@/components/navbar/navbar';
 
 type AsyncLayoutProps = {
   locale: string;

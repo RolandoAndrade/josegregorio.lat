@@ -2,17 +2,28 @@
 import { Button, Navbar as FBNavbar } from 'flowbite-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { useSection } from '@/components/navbar/section-hook';
+
+
+
+const activeTheme = {
+  active: {
+    on: 'text-black',
+    off: 'text-gray-600'
+  }
+}
 
 export function Navbar() {
   const titleTranslations = useTranslations('Titles')
+  const {currentSection} = useSection()
+
   return (
     <FBNavbar
       fluid
       rounded
       className={'bg-gray-50 p-3 sticky top-0 z-50'}
-
     >
-      <FBNavbar.Brand href="https://josegregorio.lat">
+      <FBNavbar.Brand href="/">
         <Image
           width={36}
           height={36}
@@ -32,19 +43,19 @@ export function Navbar() {
         <FBNavbar.Toggle />
       </div>
       <FBNavbar.Collapse>
-        <FBNavbar.Link color={'dark'}
-          href="#about"
+        <FBNavbar.Link color={'dark'} active={currentSection === 'about'}
+          href="#about" theme={activeTheme}
         >
           <p className={'hover:text-black font-semibold'}>
             {titleTranslations('about')}
           </p>
         </FBNavbar.Link>
-        <FBNavbar.Link href="#features">
+        <FBNavbar.Link href="#features" active={currentSection === 'features'} theme={activeTheme}>
           <p className={'hover:text-black font-semibold'}>
             {titleTranslations('features')}
           </p>
         </FBNavbar.Link>
-        <FBNavbar.Link href="#faqs" color={'dark'}>
+        <FBNavbar.Link href="#faqs" color={'dark'} active={currentSection === 'faqs'} theme={activeTheme}>
           <p className={'hover:text-black font-semibold'}>
             {titleTranslations('faqs')}
           </p>

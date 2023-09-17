@@ -1,7 +1,7 @@
 import '../../app/[locale]/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Navbar } from '@/components/navbar';
+import { Navbar } from '@/components/navbar/navbar';
 import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import {NextIntlClientProvider} from 'next-intl';
