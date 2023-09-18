@@ -7,7 +7,7 @@ import { TfiWorld } from 'react-icons/tfi';
 export function TryButtons() {
   const titleTranslations = useTranslations('Titles')
   return (
-    <div className="flex flex-wrap gap-x-6 gap-y-4">
+    <div className="flex flex-wrap gap-x-6 gap-y-4 justify-center lg:justify-start">
       <Button href={'https://app.josegregorio.lat'} outline={true} color={'dark'} size={'lg'} className={'font-semibold'}>
         <div className={'flex place-items-center'}>
           <TfiWorld className={'mr-3'}/>
