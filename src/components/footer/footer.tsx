@@ -2,9 +2,10 @@
 
 import { Footer as FBFooter } from 'flowbite-react';
 import { TryButtons } from '@/components/hero/try-buttons';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 export function Footer() {
+  const locale = useLocale();
   const titleTranslations = useTranslations('Titles')
   return (
     <FBFooter container>
@@ -28,6 +29,9 @@ export function Footer() {
             </FBFooter.Link>
             <FBFooter.Link href="https://projects.rolandoandrade.me/doctor-app/" className={'p-2'}>
               {titleTranslations('privacy')}
+            </FBFooter.Link>
+            <FBFooter.Link href={`/${locale === 'es' ? 'en' : 'es'}`} className={'p-2'}>
+              {locale === 'es' ? 'Read in English' : 'Leer en Español'}
             </FBFooter.Link>
             <div className={'p-2'}>
               <TryButtons />
